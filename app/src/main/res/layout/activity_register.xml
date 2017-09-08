@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_form"
+    tools:context="com.ardhi.m_solving.RegisterActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="@dimen/marginLogin"
+        android:layout_marginRight="@dimen/marginLogin"
+        android:id="@+id/imageView" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_above="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/marginLogin"
+        android:layout_marginRight="@dimen/marginLogin"
+        android:ems="10"
+        android:hint="Nama Pengguna"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/txt_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginRight="@dimen/marginLogin"
+        android:layout_marginLeft="@dimen/marginLogin"
+        android:backgroundTint="@color/white"
+        android:hint="Kata Sandi"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/txt_repwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/marginLogin"
+        android:layout_marginLeft="@dimen/marginLogin"
+        android:ems="10"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white"
+        android:hint="Ulangi Kata Sandi"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:layout_below="@+id/txt_pwd"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/btn_lanjut"
+        android:background="@drawable/buttonstyleselector"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Lanjut" />
+
+    <TextView
+        android:id="@+id/tv_already"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/marginLogin"
+        android:layout_marginLeft="@dimen/marginLogin"
+        android:layout_below="@+id/txt_repwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="TextView" />
+
+
+</RelativeLayout>

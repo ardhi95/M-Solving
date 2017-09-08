@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">M-Solving</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="hello_login">Hello fisherman, silahkan login dulu ya</string>
+    <!-- String Register-->
+    <string name="register">Silahkan isi form dibawah ini</string>
+    <string name="nav_profil">Profil</string>
+    <string name="nav_report">Tambah Laporan</string>
+    <string name="nav_history">Riwayat Laporan</string>
+    <string name="nav_panik">Tombol Panik</string>
+    <string name="nav_keluar">Keluar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Profil</item>
+        <item>Tambah Laporan</item>
+        <item>Riwayat Laporan</item>
+        <item>Tombol Panik</item>
+        <item>Keluar</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
